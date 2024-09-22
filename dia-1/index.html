@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML - HyperText Markup Language</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <main>
+    <h1>Formas de aplicar estilos CSS</h1>
+    <p>Existen tres formas de aplicar estilos CSS a un documento HTML.</p>
+    <ol>
+      <li>Estilos en línea.</li>
+      <li>Estilos internos.</li>
+      <li>Estilos externos.</li>
+    </ol>
+
+    <h2>1. Estilos en línea</h2>
+    <p>Se aplican directamente a los elementos HTML mediante el atributo <strong>&lt;style&gt;</strong>. No es
+      recomendable para proyectos grandes debido a su poca mantenibilidad.</p>
+    <code>&lt;p style="font-size: 20px; color: darkorange;"&gt;Este es un párrafo con estilo en línea.&lt;/p&gt;</code>
+    <code><p style="font-size: 20px; color: darkorange;">Este es un párrafo con estilo en línea.</p></code>
+
+    <h2>2. Estilos internos</h2>
+    <p>Estos estilos se colocan dentro de la etiqueta <strong>&lt;style&gt;</strong> en la sección
+      <strong>&lt;head&gt;</strong> del HTML.</p>
+    <pre>
+<code>
+  &lt;head&gt;
+    &lt;style&gt;
+      body {
+        background: black;
+        color: white;
+      }
+      h1 {
+        font-size: 36px;
+        color: orange;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+</code>
+</pre>
+
+    <h2>3. Estilos externos</h2>
+    <p>Es el método más eficiente y recomendado. Los estilos se almacenan en un archivo CSS separado que se enlaza al
+      archivo HTML a través de la etiqueta <strong>&lt;link&gt;</strong>.</p>
+    <pre>
+  <code>
+  &lt;head&gt;
+    &lt;link rel="stylesheet" href="style.css"&gt;
+  &lt;/head&gt;
+  </code>
+</pre>
+  </main>
+</body>
+
+</html>

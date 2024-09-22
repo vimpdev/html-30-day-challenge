@@ -1,0 +1,17 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  background-color: rgb(1, 13, 27);
+  color: whitesmoke;
+  line-height: 1.6;
+}
+main {
+  margin-inline: auto;
+  max-inline-size: 70ch;
+}
+h1 {
+  text-align: center;
+}
+p {
+  font-size: 18px;
+}
