@@ -1,8 +1,9 @@
-# HTML 30 días challenge
+# HTML: 30 días challenge
 
-Iniciativa de [ManzDev](https://lenguajehtml.com/challenge/), nos deja una lista de retos para realizarlos en 30 días.
+Iniciativa de [ManzDev](https://lenguajehtml.com/challenge/) que presenta una lista de retos para completarlos en 30 días.
 
-| DÍa | RETO | REPO | LIVE |
+| Día | Reto | Repositorio | Demo |
 | --- | --- | --- | --- |
-| 1️⃣ | Crear una página HTML con código CSS desde un archivo diferente. | [code](https://github.com/vimpdev/html-30-day-challenge/tree/main/dia-1) | [📺](https://vimpdev.github.io/html-30-day-challenge/dia-1/index.html) |
+| 1️⃣ | Crear una página HTML con código CSS desde un archivo diferente. | [Código](https://github.com/vimpdev/html-30-day-challenge/tree/main/dia-1) | [Vivo](https://vimpdev.github.io/html-30-day-challenge/dia-1/index.html) |
+| 2️⃣ | Crear una página con un titular, varios párrafos de texto y una imagen. | [Código](https://github.com/vimpdev/html-30-day-challenge/tree/main/dia-2) | [Vivo](https://vimpdev.github.io/html-30-day-challenge/dia-2/index.html) |
 <!-- |  |  |  |  | -->
